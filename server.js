@@ -21,7 +21,7 @@ var articles={
         </p>`
 },
 'article-two':{
-title:'Article two | Sruthi',
+title:'article two | Sruthi',
 heading:'article two',
 content:`
  <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -38,7 +38,7 @@ content:`
 
            },
 'article-three':{
-title: 'Article-three | Sruthi',
+title: 'article-three | Sruthi',
 heading:'article three',
 content:`
  <meta name="viewport" content="width=device-width,initial-scale=1" />
