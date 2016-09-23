@@ -6,49 +6,49 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
- 'article-one':{
- title:'article-one | Amitesh',
+ 'Article-one':{
+ title:'article-one | Sruthi',
     heading: 'article one',
     content:`
      <meta name="viewport" content="width=device-width,initial-scale=1" />
     <p>
-    <img src="http://i.dailymail.co.uk/i/pix/2013/01/01/article-2255743-16B7C024000005DC-691_634x424.jpg" />
+    <img src="http://cdn.playbuzz.com/cdn/f297c57c-307a-4fc4-832a-ce1a6aa3aa52/d61881fe-f181-4464-84fa-cfca7bec59a5.jpg" />
     </p>
     <p>
     <font size="5">
-           <marquee>  Hi this is Sourav Ganguly,the best captain of all time! </marquee>
+           <marquee>  The Chosen One </marquee>
         </font>
         </p>`
 },
 'article-two':{
-title:'article two | Amitesh',
+title:'Article two | Sruthi',
 heading:'article two',
 content:`
  <meta name="viewport" content="width=device-width,initial-scale=1" />
 <p>
-        <img src="http://i.ndtvimg.com/i/2016-02/joey_640x480_71454592517.jpg"/>
+        <img src="http://www.heyuguys.com/images/2014/04/HermioneGranger.jpg"/>
         </p>
         <p>
         <h4>
         <font size="7">
-       <marquee>  How you doin? </marquee>
+       <marquee>  The brightest witch of her age </marquee>
         </font>
         </h4>
     </p>`
 
            },
 'article-three':{
-title: 'article-three | Amitesh',
+title: 'Article-three | Sruthi',
 heading:'article three',
 content:`
  <meta name="viewport" content="width=device-width,initial-scale=1" />
      <p>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/IhuI759LDco" frameborder="0" allowfullscreen></iframe>
+     <img src="https://s-media-cache-ak0.pinimg.com/236x/0a/d1/08/0ad1087e60d716237ceb63872059f79a.jpg"/>
      </p>
      <p>
      <h4>
      <font size="7">
-     <marquee>Harry Potter best scene </marquee>
+     <marquee> Our King </marquee>
      </h4>
      </font>
      </p> `
@@ -73,9 +73,9 @@ var htmlTemplate=`
 
     <div>
         <a href="/">Home</a>
-        <a href="/article-one">article one</a>
-        <a href="/article-two">article two</a>
-        <a href="/article-three">article three</a>
+        <a href="/Article-one">Article one</a>
+        <a href="Aarticle-two">Article two</a>
+        <a href="/Article-three">Article three</a>
       <h3>
       ${heading}
     </div>
