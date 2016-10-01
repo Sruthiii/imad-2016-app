@@ -12,7 +12,7 @@ var articles={
     content:`
      <meta name="viewport" content="width=device-width,initial-scale=1" />
     <p>
-    <img src="http://cdn.playbuzz.com/cdn/f297c57c-307a-4fc4-832a-ce1a6aa3aa52/d61881fe-f181-4464-84fa-cfca7bec59a5.jpg" />
+    <img id='hp' src="http://cdn.playbuzz.com/cdn/f297c57c-307a-4fc4-832a-ce1a6aa3aa52/d61881fe-f181-4464-84fa-cfca7bec59a5.jpg" />
     </p>
     <p>
     <font size="5">
