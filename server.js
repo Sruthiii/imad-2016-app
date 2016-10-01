@@ -73,9 +73,9 @@ var htmlTemplate=`
 
     <div>
         <a href="/">Home</a>
-        <a href="/Article-one">Article one</a>
-        <a href="Article-two">Article two</a>
-        <a href="/Article-three">Article three</a>
+        <a href="/article-one">article one</a>
+        <a href="article-two">article two</a>
+        <a href="/article-three">article three</a>
       <h3>
       ${heading}
     </div>
